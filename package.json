@@ -1,9 +1,9 @@
 {
   "name": "node-jira-connector",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Wrapper for the JIRA API",
   "author": "Solnur <worksoldev@gmail.com>",
-  "main": "index.js",
+  "main": "/api/main.js",
   "dependencies": {
     "request-promise": "^4.2.2"
   }
