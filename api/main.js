@@ -25,3 +25,5 @@ class JiraConnector {
         return await req(options);
     };
 }
+
+module.exports = JiraConnector;
