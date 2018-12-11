@@ -1,6 +1,6 @@
 {
   "name": "node-jira-connector",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Wrapper for the JIRA API",
   "author": "Solnur <i.solnurv@gmail.com>",
   "repository": "https://github.com/Solnur/node-jira-connector",
@@ -21,6 +21,6 @@
     "babel-core": "^6.18.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-object-entries": "^1.0.0",
-    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
   }
 }
