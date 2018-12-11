@@ -14,7 +14,7 @@ npm i node-jira-connector
 const Jira = require('node-jira-connector');
 
 const jiraClient = new Jira({
-    host: 'http://localhost:3000',
+    host: 'http://localhost:3000/rest/api/latest/'',
     username: 'user',
     password: 'pass',
 });
