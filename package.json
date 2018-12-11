@@ -1,13 +1,26 @@
 {
   "name": "node-jira-connector",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Wrapper for the JIRA API",
   "author": "Solnur <i.solnurv@gmail.com>",
   "repository": "https://github.com/Solnur/node-jira-connector",
   "license": "MIT",
   "main": "./lib/main.js",
+  "scripts": {
+    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  },
   "dependencies": {
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.18.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-entries": "^1.0.0",
+    "babel-preset-es2015": "^6.14.0",
   }
 }
