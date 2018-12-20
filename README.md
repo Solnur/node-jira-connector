@@ -20,7 +20,7 @@ const jiraClient = new Jira({
 });
 
 const getIssues = async () => {
-    const url = 'search?jql=status=Copleted';
+    const url = 'search?jql=status=Completed';
 
     try {
         await jiraClient.search(url);
