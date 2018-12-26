@@ -1,6 +1,6 @@
 {
   "name": "node-jira-connector",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Wrapper for the JIRA API",
   "author": "Solnur <i.solnurv@gmail.com>",
   "repository": "https://github.com/Solnur/node-jira-connector",
